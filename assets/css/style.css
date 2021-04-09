@@ -116,7 +116,7 @@ header {
 .slide-heading {
     position: absolute;
     left: 15vw;
-    top: 20%;
+    top: 0;
     height: 100%;
 }
 .slide-heading h2 {
@@ -129,7 +129,7 @@ header {
 }
 .slide-heading a {
     position: absolute !important;
-    bottom: 25%;
+    bottom: 5%;
 }
 .middle-content {
     padding: 10px 15vw;
@@ -496,7 +496,6 @@ footer .contacts a:hover {
     }
     .slide-heading {
         left: 10vw;
-        top: 10%;
     }
     .middle-content {
         padding: 10px 10vw;
@@ -605,6 +604,9 @@ footer .contacts a:hover {
     .nav nav a {
         font-size: 2vw;
     }
+    .slide-heading h2 {
+        font-size: 3.5vw !important;
+    }
     .middle {
         margin-top: 60px;
     }
@@ -640,7 +642,10 @@ footer .contacts a:hover {
         display: none;
     }
     .slide-heading h2 {
-        font-size: 4vw !important;
+        font-size: 5vw !important;
+    }
+    .slide-heading a {
+        bottom: 15%;
     }
     .bouquet h4 {
         font-size: 2.5vw;
@@ -810,7 +815,7 @@ footer .contacts a:hover {
 }
 @media only screen and (max-width: 400px) {
     .slide-heading h2 {
-        font-size: 5vw !important;
+        font-size: 8vw !important;
     }
 }
 @media only screen and (max-width: 375px) {
