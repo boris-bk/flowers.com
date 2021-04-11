@@ -13,9 +13,6 @@
 * {
     outline: 0 !important;
 }
-iframe {
-    border: none;
-}
 a, a:hover {
     text-decoration: none;
 }
@@ -112,6 +109,7 @@ header {
 }
 .middle {
     margin-top: 80px;
+    padding: 35px 15vw;
 }
 .navigate {
     margin-bottom: 30px;
@@ -197,13 +195,13 @@ header {
     margin-bottom: 20px;
 }
 .diamond::after {
-    content: "•";
+    content: ".";
     position: absolute;
     left: calc(50% + 0.5px);
     transform: translateX(-50%);
     bottom: 20px;
     color: rgb(5, 134, 136);
-    font-size: 24px;
+    font-size: 36px;
 }
 .teams {
     display: flex;
@@ -224,7 +222,7 @@ header {
 .arc-heading {
     position: absolute;
     width: 100%;
-    top: -5px;
+    top: -2%;
 }
 .arc-heading .arc-heading__heading {
     font-family: 'Oswald', sans-serif;
